@@ -1,0 +1,23 @@
+{
+  "name": "http-calc",
+  "version": "0.1.0",
+  "description": "Web calculator in TS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node .",
+    "dev": "tsc && ndoemon .",
+    "build": "tsc"
+  },
+  "author": "zariaa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "eslint": "^8.16.0",
+    "tsc-node": "^0.0.3",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "fastify": "^3.29.0"
+  }
+}
